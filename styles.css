@@ -1,0 +1,76 @@
+html {
+background-image: url("mobile6.jpg");
+background-position: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100%;
+}
+
+/* Style body */
+body { 
+padding: 0; 
+margin: 0; 
+}
+  
+/* Style inputs */
+input, .add {
+width: 90%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+color: darkgray;
+margin-left: 50px;
+margin-right: 50px;
+}
+
+
+/* Style paragraph */
+.container p {
+text-align: center;
+color: gray;
+font-size: 20px;
+font-family: Verdana;
+}
+
+.container p:first-child {
+color: white;
+}
+
+/* Add padding to containers */
+.container {
+padding: 50px;
+margin-right: 250px;
+margin-left: 250px;
+margin-bottom: 0px;
+background:rgb(50, 68, 103, 0.2); 
+}
+
+div {
+height: 150px;
+width: 300px;
+background: rgb(50, 68, 103, 0.3);
+margin: 25px;
+padding: 10px;
+}
+
+.list {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+margin: 10px;
+}
+
+#img {
+width: 20px;
+height: 20px; 
+margin-left: 100%;
+}
+
+.deleteButton {
+width: 5px;
+height: 5px;
+}
+
